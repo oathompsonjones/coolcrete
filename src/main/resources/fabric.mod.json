@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "coolcrete",
+  "version": "${version}",
+  "name": "CoolCrete",
+  "description": "Adds slippery concrete blocks.",
+  "authors": [
+    "oathompsonjones",
+    "Random Nautilus"
+  ],
+  "contact": {
+    "homepage": "https://github.com/oathompsonjones/coolcrete",
+    "sources": "https://github.com/oathompsonjones/coolcrete"
+  },
+  "license": "MIT",
+  "icon": "assets/coolcrete/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "uk.co.oathompsonjones.CoolCrete"
+    ],
+    "client": [
+      "uk.co.oathompsonjones.CoolCreteClient"
+    ],
+    "fabric-datagen": [
+      "uk.co.oathompsonjones.CoolCreteDataGenerator"
+    ]
+  },
+  "mixins": [
+    "coolcrete.mixins.json"
+  ],
+  "client": [
+    "coolcrete.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+  }
+}
