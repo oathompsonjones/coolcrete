@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "coolcrete",
   "version": "${version}",
-  "name": "CoolCrete",
+  "name": "Coolcrete",
   "description": "Adds slippery concrete blocks.",
   "authors": [
     "oathompsonjones",
