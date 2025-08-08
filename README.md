@@ -1,8 +1,8 @@
-![CoolCrete Title Image](./src/main/resources/assets/coolcrete/title.png)
+![Coolcrete Title Image](./src/main/resources/assets/coolcrete/title.png)
 
-# Welcome to CoolCrete!
+# Welcome to Coolcrete!
 
-CoolCrete is a Minecraft mod that adds slippery concrete blocks to the game.
+Coolcrete is a Minecraft mod that adds slippery concrete blocks to the game.
 
 To run the mod locally, set up a fabric modding environment, then run the following:
 

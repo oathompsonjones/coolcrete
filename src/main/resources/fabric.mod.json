@@ -17,13 +17,13 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "uk.co.oathompsonjones.CoolCrete"
+      "uk.co.oathompsonjones.Coolcrete"
     ],
     "client": [
-      "uk.co.oathompsonjones.CoolCreteClient"
+      "uk.co.oathompsonjones.CoolcreteClient"
     ],
     "fabric-datagen": [
-      "uk.co.oathompsonjones.CoolCreteDataGenerator"
+      "uk.co.oathompsonjones.CoolcreteDataGenerator"
     ]
   },
   "mixins": [

@@ -2,10 +2,10 @@ package uk.co.oathompsonjones.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
-import uk.co.oathompsonjones.CoolCrete;
+import uk.co.oathompsonjones.Coolcrete;
 
-public class CoolCreteEnUsLanguageProvider extends FabricLanguageProvider {
-    public CoolCreteEnUsLanguageProvider(FabricDataOutput dataGenerator) {
+public class CoolcreteEnUsLanguageProvider extends FabricLanguageProvider {
+    public CoolcreteEnUsLanguageProvider(FabricDataOutput dataGenerator) {
         super(dataGenerator);
     }
 
@@ -29,9 +29,9 @@ public class CoolCreteEnUsLanguageProvider extends FabricLanguageProvider {
 
     @Override
     public void generateTranslations(TranslationBuilder translationBuilder) {
-        for (String color : CoolCrete.COLORS) {
+        for (String color : Coolcrete.COLORS) {
             String newColor = format(color);
-            translationBuilder.add("block." + CoolCrete.MOD_ID + "." + color + "_coolcrete", newColor + " CoolCrete");
+            translationBuilder.add("block." + Coolcrete.MOD_ID + "." + color + "_coolcrete", newColor + " Coolcrete");
         }
     }
 }

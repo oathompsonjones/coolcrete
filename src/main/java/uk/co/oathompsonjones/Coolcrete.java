@@ -8,11 +8,11 @@ import org.slf4j.LoggerFactory;
 
 import java.util.HashMap;
 
-public class CoolCrete implements ModInitializer {
+public class Coolcrete implements ModInitializer {
     // This logger is used to write text to the console and the log file.
     // It is considered best practice to use your mod id as the logger's name.
     // That way, it's clear which mod wrote info, warnings, and errors.
-    public static final String MOD_NAME = "CoolCrete";
+    public static final String MOD_NAME = "Coolcrete";
     public static final String MOD_ID   = MOD_NAME.toLowerCase();
     public static final Logger LOGGER   = LoggerFactory.getLogger(MOD_ID);
 
@@ -65,6 +65,6 @@ public class CoolCrete implements ModInitializer {
         LOGGER.info("{} is initializing!", MOD_ID);
 
         // Register all items, item groups and blocks
-        CoolCreteBlocks.initialize();
+        CoolcreteBlocks.initialize();
     }
 }
